@@ -16,5 +16,4 @@ object NetworkModule {
     @Provides
     fun provideNaverDataService(): NaverDataService = NaverDataService.create()
 
-
 }
